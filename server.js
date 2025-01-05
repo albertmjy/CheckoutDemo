@@ -41,7 +41,7 @@ app.post("/create-payment-sessions", async (_req, res) => {
           "alipay_cn", "alipay_hk", "applepay", "bancontact", "benefit", "card", "dana", "eps", "gcash", "googlepay", "ideal", "kakaopay", "klarna", "knet", "multibanco", "p24", "paypal", "qpay", "sepa", "sofort", "stcpay", "tng", "truemoney"
           ],
         '3ds': {
-          "enabled": false,
+          "enabled": true,
           "challenge_indicator": "challenge_requested"
         },
         "payment_type": "Regular",
